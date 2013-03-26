@@ -4,9 +4,9 @@
     <?php FeedPage::includesTpl(); ?>
   </head>
   <body>
-    <div class="container-fluid full-height">
-      <div class="row-fluid full-height">
-        <div class="span12 full-height">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span12">
           <?php FeedPage::statusTpl(); ?>
           <?php FeedPage::navTpl(); ?>
           <div class="container-fluid">
